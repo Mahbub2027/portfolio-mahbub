@@ -14,7 +14,7 @@ const Projects = () => {
     return (
         <div className="w-10/12 mx-auto my-20">
             <h2 className="text-4xl font-bold text-center mb-10">Recent Works</h2>
-            <div className='grid grid-cols-3 gap-5 '>
+            <div className='grid grid-cols-1 md:grid-cols-3 gap-5 '>
                 <div className='border-2 rounded-xl relative overflow-hidden max-w-sm'>
                     <p className=''><img   className='h-[440px] w-full transition-transform duration-300 transform-gpu hover:scale-105' src={projectTour} alt="" /></p>
                     <h2 className='text-xl font-bold p-3 my-1'>Tourist guide website</h2>

@@ -3,12 +3,12 @@ import { Typewriter } from 'react-simple-typewriter'
 import profileImg from '../../../assets/Mahbub1-remove.png';
 const Banner = () => {
     return (
-        <div className='w-11/12 mx-auto flex flex-col md:flex-row items-center  pt-20 mb-20 justify-between bg-slate-900'>
+        <div className='w-11/12 mx-auto flex flex-col-reverse md:flex-row items-center  pt-20 mb-20 justify-between bg-slate-900'>
             <div className='flex flex-col '>
-                <h2 className="font-bold text-white"><span className='text-3xl'>Hi, I'm</span>
-                    <br /> <span className='text-5xl'>Md. Mahbub Alam</span></h2>
+                <h2 className="font-bold text-white mt-7"><span className='text-3xl'>Hi, I'm</span>
+                    <br /> <span className='text-4xl md:text-5xl'>Md. Mahbub Alam</span></h2>
 
-                <h1 className='text-4xl ' style={{ paddingTop: '1rem', margin: 'auto 0', fontWeight: 'normal' }}>
+                <h1 className='text-3xl md:text-4xl' style={{ paddingTop: '1rem', margin: 'auto 0', fontWeight: 'normal' }}>
                     {' '}
                     <span style={{ color: 'red', fontWeight: 'bold' }}>
                         {/* Style will be inherited from the parent element */}

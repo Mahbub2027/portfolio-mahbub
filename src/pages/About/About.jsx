@@ -2,12 +2,12 @@
 import aboutImg from '../../assets/Mahbub-full-bg-remove.png';
 const About = () => {
     return (
-        <div className=" w-9/12 mx-auto my-40 flex flex-col md:flex-row gap-16 items-center">
+        <div className=" w-9/12 mx-auto my-40 flex flex-col lg:flex-row gap-16 items-center">
             
-            <div className='w-1/3 mx-auto'>
-                    <img className='border-2 px-10 mx-auto' src={aboutImg} alt="" />
+            <div className='w-full lg:w-1/3 mx-auto'>
+                    <img className='border-2 rounded-xl px-10 mx-auto' src={aboutImg} alt="" />
             </div>
-            <div className='w-2/3 mx-auto text-justify'>
+            <div className='w-full lg:w-2/3 mx-auto text-justify'>
                 <h2 className="text-4xl font-bold mb-5">About me</h2>
                 <p>Welcome to my portfolio! I'm Md. Mahbub Alam, a passionate
                      Frontend Developer based in Sylhet,Bangladesh.
