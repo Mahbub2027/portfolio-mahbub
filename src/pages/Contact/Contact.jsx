@@ -5,6 +5,7 @@ import { useRef } from "react";
 import { FaLocationDot, FaPhone } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import emailjs from '@emailjs/browser';
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
     const form = useRef();
@@ -32,7 +33,7 @@ const Contact = () => {
       };
 
     return (
-        <div className="w-10/12 mx-auto mt-14 pb-10">
+       <div id='contact' className="w-10/12 mx-auto mt-14 pb-10">
             <h2 className="text-4xl font-bold text-center my-16">Keep in touch</h2>
             <div className=" flex flex-col-reverse md:flex-row gap-2">
 
@@ -41,7 +42,7 @@ const Contact = () => {
                         <input name="from_name" type="text" placeholder="Name *" className="w-full md:w-3/4 rounded-lg p-2 text-black border-b-2 border-slate-900" required />
                         <input name="from_email" type="email" placeholder="Email *" className="w-full md:w-3/4 rounded-lg p-2 text-black border-b-2 border-slate-900" required />
                         <textarea name="message" type="text" placeholder="Message *" className="w-full md:w-3/4 rounded-lg p-2 text-black border-b-2 border-slate-900" required />
-                        <input type="submit" value="Send Message"  className="bg-white border-2 p-3 w-40 cursor-pointer text-slate-900 text-center text-lg font-semibold rounded-3xl hover:bg-slate-900 hover:text-white hover:border-white hover:border-2" />
+                        <input type="submit" value="Send Message"  className="bg-white border-2 p-2 w-40 cursor-pointer text-slate-900 text-center text-lg font-semibold rounded-3xl hover:bg-slate-900 hover:text-white hover:border-white hover:border-2" />
 
                     </form>
                     <ToastContainer />
@@ -64,6 +65,7 @@ const Contact = () => {
                 </div>
             </div>
         </div>
+        
     );
 };
 

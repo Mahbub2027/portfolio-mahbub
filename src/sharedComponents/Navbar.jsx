@@ -1,17 +1,26 @@
 // import React from 'react';
-
-import { NavLink } from "react-router-dom";
+// import { Scrollspy } from 'react-scrollspy';
+// import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
     const navLinks = <>
-        <NavLink to={'/'}><li>Home</li></NavLink>
-        <NavLink to={'/about'}><li>About</li></NavLink>
-        <NavLink to={'/contact'}><li>Contact</li></NavLink>
+
+
+        <li><a href="">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#contact">Contact</a></li>
+        {/* <NavLink to='/#'><li>Home</li></NavLink>
+        <NavLink to='/#about'><li>About</li></NavLink>
+        <NavLink to='/#project'><li>Projects</li></NavLink>
+        <NavLink to='/#skills'><li>Skills</li></NavLink>
+        <NavLink to='/#contact'><li>Contact</li></NavLink> */}
     </>
     return (
-        <div className="w-11/12 mx-auto">
-            <div className="navbar">
-                <div className="navbar-start">
+        <div className=" bg-slate-800 text-white  w-full shadow-md">
+            <div className=" navbar px-14 inline-block md:inline-flex">
+                <div className="navbar-start inline">
                     <div className="dropdown">
                         <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
                             <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
@@ -20,11 +29,11 @@ const Navbar = () => {
                             {navLinks}
                         </ul>
                     </div>
-                    <a style={{fontFamily: 'Dancing Script'}} className="text-2xl">Md. Mahbub Alam</a>
+                    <a style={{ fontFamily: 'Dancing Script' }} className="text-2xl">Md. Mahbub Alam</a>
                 </div>
-                
+
                 <div className="navbar-end hidden lg:flex">
-                    <ul className="space-x-7 text-lg font-semibold menu menu-horizontal px-1">
+                    <ul className=" text-base font-semibold menu menu-horizontal px-1">
                         {navLinks}
                     </ul>
                 </div>

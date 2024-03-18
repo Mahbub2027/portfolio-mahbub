@@ -23,7 +23,7 @@ const Banner = () => {
                         />
                     </span>
                 </h1>
-                <p className='text-white border-2 border-white text-center font-medium mt-5 p-2 rounded-lg w-24 cursor-pointer hover:bg-white hover:text-slate-900'>Contact</p>
+                <p className='text-white border-2 border-white text-center font-medium mt-5 p-2 rounded-lg w-24 cursor-pointer hover:bg-white hover:text-slate-900'><a href="#contact">Contact</a></p>
             </div>
 
             <div>

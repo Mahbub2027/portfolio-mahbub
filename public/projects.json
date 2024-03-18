@@ -1,0 +1,26 @@
+[
+    {
+        "id" : "1",
+        "image" : "../src/assets/tourist-guide.png",
+        "title" : "Tourist guide website ",
+        "description" : "This is a Tourist Guide online platform that provides comprehensive information and resources for travelers seeking guidance on popular destinations in Bangladesh. ",
+        "github" : "https://github.com/Mahbub2027/tourist-guide-client ", 
+        "live_link" : "https://psychotic-industry.surge.sh/ "
+    },
+    {
+        "id" : "2",
+        "image" : "../src/assets/career-maker.png",
+        "title" : "Home Career Services website ",
+        "description" : "Here user can watch available services of different types and also show service provider info. User can messages us any query for services. ",
+        "github" : "https://github.com/Mahbub2027/career-maker-client ", 
+        "live_link" : "https://home-career.web.app/"
+    },
+    {
+        "id" : "3",
+        "image" : "../src/assets/automative.png",
+        "title" : "Automotive Store website ",
+        "description" : "Allow users to browse vehicles based on various criteria such brand name. Provide detailed information with high-quality images, specifications, and pricing information. ",
+        "github" : "https://github.com/Mahbub2027/automotive-store-client", 
+        "live_link" : "https://automotive-store-eb3dd.web.app/ "
+    }
+]
